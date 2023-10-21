@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 function BookList() {
   return (
-    <div>
+    <div className="booklist">
       <Book />
       <Book />
       <Book />
