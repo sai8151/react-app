@@ -15,7 +15,7 @@ function BookList() {
 
 function Book() {
   return (
-    <section>
+    <section id="book">
       <Image />
       <Title />
       <Author />

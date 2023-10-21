@@ -3,7 +3,6 @@
 }
 
 body{
-    background-image: linear-gradient(rgb(192, 192, 192), rgb(112, 112, 112) 30%, rgb(223, 224, 223) 80%,rgb(253, 253, 253) 100% );
     color: rgb(27, 27, 27);
     background-repeat: no-repeat;
 }
@@ -19,6 +18,9 @@ section{
     backdrop-filter: blur(5px);
 }
 
+#book{
+    background-color: antiquewhite;
+}
 @media screen and (min-width: 1013px) {
     .booklist{
         display: grid;
